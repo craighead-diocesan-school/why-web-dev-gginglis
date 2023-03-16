@@ -1,4 +1,11 @@
 <!doctype html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title> Why Web Dev </title>
+  <link rel="icon" href="wwd-icon.png">
+</head>
 
 <body>
 
@@ -18,7 +25,7 @@
       have.
     </p>
 
-    <img src="super-hardcore-hacker.jpg">
+    <img src="super-hardcore-hacker.jpg" alt="super hardcore hacker">
     <ul>
       <li> You can reach an enormous audience through the web because clients and customers can use any device they want
         to
@@ -33,71 +40,73 @@
   </main>
 
   <footer>
-    &copy G 2023
+    &copy; G 2023
   </footer>
-
-  <style>
-    * {
-      font-family: sans-serif;
-    }
-
-    h1 {
-      text-align: center;
-      color: rgb(102, 56, 142);
-    }
-
-    a {
-      text-decoration: none;
-      color: black;
-      border: 1.5px solid rgb(102, 56, 142);
-      border-radius: 0.5em;
-      padding: 0.2em 0.5em;
-      margin: 0.5em 1.5em;
-      display: block;
-    }
-
-    a:hover {
-      color: white;
-      background-color: rgb(102, 56, 142);
-    }
-
-    img {
-      width: 10rem;
-      margin: 1rem 20rem;
-    }
-
-    ul {
-      margin: 1em 3em;
-    }
-
-    footer {
-      font-family: sans-serif;
-    }
-
-    body {
-      display: grid;
-      grid:
-        " h    h    .  " 3em " n    m    .  " auto " f    f    .  " 5em / 1fr 5fr 1fr;
-    }
-
-    header {
-      grid-area: h;
-    }
-
-    nav {
-      grid-area: n;
-    }
-
-    main {
-      grid-area: m;
-    }
-
-    footer {
-      grid-area: f;
-    }
-
-    p {
-      margin-left: 8%;
-    }
-  </style>
 </body>
+
+<style>
+  h1 {
+    text-align: center;
+    color: rgb(102, 56, 142);
+  }
+
+  a {
+    text-decoration: none;
+    color: black;
+    border: 1.5px solid rgb(102, 56, 142);
+    border-radius: 0.5em;
+    padding: 0.2em 0.5em;
+    margin: 0.5em 1.5em;
+    display: block;
+  }
+
+  * {
+    font-family: sans-serif;
+  }
+
+  a:hover {
+    color: white;
+    background-color: rgb(102, 56, 142);
+  }
+
+  img {
+    width: 10rem;
+    margin: 1rem 20rem;
+  }
+
+  ul {
+    margin: 1em 3em;
+  }
+
+  footer {
+    font-family: sans-serif;
+  }
+
+  body {
+    display: grid;
+    grid:
+      " h    h    .  " 3em " n    m    .  " auto " f    f    .  " 5em / 1fr 5fr 1fr;
+  }
+
+  header {
+    grid-area: h;
+  }
+
+  nav {
+    grid-area: n;
+  }
+
+  main {
+    grid-area: m;
+  }
+
+  footer {
+    grid-area: f;
+  }
+
+  p {
+    margin-left: 8%;
+  }
+</style>
+
+</html>
